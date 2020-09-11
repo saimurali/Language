@@ -6,7 +6,7 @@ public static class CreateCul
 {
     public static void Create()
     {
-        // Create a custom culture for ru-US.
+        // Create a custom culture 
         CultureAndRegionInfoBuilder culAndReg = new CultureAndRegionInfoBuilder("en-HU",
                                                CultureAndRegionModifiers.None);
         culAndReg.LoadDataFromCultureInfo(CultureInfo.CreateSpecificCulture("en-HU"));
