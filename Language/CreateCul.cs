@@ -12,9 +12,9 @@ public static class CreateCul
         culAndReg.LoadDataFromCultureInfo(CultureInfo.CreateSpecificCulture("en-HU"));
         culAndReg.LoadDataFromRegionInfo(new RegionInfo("HU"));
 
-        culAndReg.CultureEnglishName = "english (Hungary)";
-        culAndReg.CultureNativeName = "english (Hungary)";
-        culAndReg.CurrencyNativeName = "Hungary INR";
+        culAndReg.CultureEnglishName = "English(Hungary)";
+        culAndReg.CultureNativeName = "English(Hungary)";
+        culAndReg.CurrencyNativeName = "Hungarian Forint";
         culAndReg.RegionNativeName = "Hungarian-English";
 
         // Register the culture.
